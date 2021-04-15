@@ -145,7 +145,8 @@ article{
     background-color: white;
     border-radius: 10px;
 
-    justify-items: center;
+    justify-content: space-evenly;
+
    
 }
 
@@ -157,6 +158,7 @@ article{
 }
 .avatar{ 
     display: flex ; 
+    justify-content: space-between;
 } 
 
 .addcomentario {   
@@ -164,7 +166,8 @@ article{
     border: 1px solid #ccc;
      
     border-radius: 10px;
-    display:inline-flex
+    display:inline-flex;
+    justify-content: space-between;
 }
 
 .addcomentario form input{
