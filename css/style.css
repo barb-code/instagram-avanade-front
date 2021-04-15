@@ -16,7 +16,12 @@ main {
     padding: 30px 0px; 
     /* 150ps para cima e para baixo, 0px para laterais*/
 }
-
+article{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px 0px; 
+}
 .logo {
     width: 180px;
 }
@@ -70,3 +75,91 @@ main {
     
 }
 
+/*----------------- STYLE REGISTRO ------------------------ */
+
+.cadastro{
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    margin: 50px;
+    background-color: white;
+    align-content: center;
+    
+}
+
+.cadastro form input {
+    width: 100%;
+    height: 37px;
+    margin: 4px 0px;
+    padding: 7px;
+    border: thin solid #ccc ;
+    border-radius: 3px;
+    font-size: 11px;
+    text-align: justify; 
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1); 
+    letter-spacing: .4px;
+}
+
+.cadastro form button{
+    
+    width: 100%;
+    background-color: #0095f6;
+    color: #fff;
+    height: 29px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: .4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta-login{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------- STYLE POST ------------------------ */
+
+
+.post form input{
+   
+    width: 100%;
+    height: 37px;
+    margin: 4px 0px;
+    padding: 7px;
+    border: thin solid #ccc ;
+    border-radius: 3px;
+    font-size: 11px;
+    text-align: justify; 
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1); 
+    letter-spacing: .4px;
+    
+    
+}
+
+.imgpost{
+    width: 50%;
+}
+.imgavatar{
+    width: 50px;
+}
+.avatar{ 
+    display: flex;      
+
+} 
+.post{
+    border: thin;
+}
+.addcomentario {
+    display: flex;
+    
+}
